@@ -20,7 +20,7 @@ if(mail("alexandr.kurganskii!yandex.ru",
 {
     echo "{'Status': 'ok'}";
 }else{
-    echo "{'status': 'error'}";
+    echo "{'Status': 'error'}";
 }
 
 
