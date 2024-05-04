@@ -18,7 +18,7 @@ if(mail("alexandr.kurganskii!yandex.ru",
     "From: 1c-webdevelopment.ru\r\n". "Content-type: text/html\r\n"))
 
 {
-    echo "{'status': 'ok'}";
+    echo "{'Status': 'ok'}";
 }else{
     echo "{'status': 'error'}";
 }
