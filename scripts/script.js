@@ -82,7 +82,7 @@ $(document).ready(function(){
             fetch("../send.php", {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/x-www-form-urlencoder"
+                    "Content-Type": "application/x-www-form-urlencoded"
                 },
                 body: $("#send_form").serialize(),
             }).then((response) => response.json()).then((data) => {
