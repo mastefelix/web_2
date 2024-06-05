@@ -7,17 +7,31 @@
     <link rel="stylesheet" href="css/bxslider.css">
     <link rel="stylesheet" href="css/icon-font.min.css">
     <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Студия разработки умных решений!</title>
+    <title>Студия разработки умных решений</title>
+    <link rel="shortcut icon" href="images/logo.png">
 </head>
 <body>
+    <div class="preload">
+        <div id="spinSquares">
+            <div class="spinSquar" id="spinSquar_1"></div>
+            <div class="spinSquar" id="spinSquar_2"></div>
+            <div class="spinSquar" id="spinSquar_3"></div>
+            <div class="spinSquar" id="spinSquar_4"></div>
+            <div class="spinSquar" id="spinSquar_5"></div>
+            <div class="spinSquar" id="spinSquar_6"></div>
+            <div class="spinSquar" id="spinSquar_7"></div>
+            <div class="spinSquar" id="spinSquar_8"></div>
+        </div>
+    </div>
     <div class="topheader">
         <nav>
             <ul class="primary-nav">
                 <li><a href="#main">Главная</a></li>
                 <li><a href="#aboutus">О нас</a></li>
-                <li><a href="#somufutures">Мы в цифрах</a></li>
+                <li><a href="#somefutures">Мы в цифрах</a></li>
                 <li><a href="#ourworks">Портфолио</a></li>
                 <li><a href="#partners">партнеры</a></li>
                 <li><a href="#team">команда</a></li>
@@ -114,29 +128,34 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-xl-12">
-                        <div class="head_black_content">
+                        <div class="head_black_content os-animation" data-os-animation="pulse"
+                        data-os-animation-delay="0.5s">
                             <h4>Мы в цифрах</h4>
                             <span></span>
                         </div>
                     </div>
                 </div>
                 <div class="row numeral">
-                    <div class="col-md-3 col-lg-3 col-xl-3 col-6">
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-6 os-animation" data-os-animation="zoomIn"
+                    data-os-animation-delay="0.5s">
                         <span class="lnr lnr-heart-pulse"></span>
                         <p>Уже работающих систем</p>
                         <h5>999+</h5>
                     </div>
-                    <div class="col-md-3 col-lg-3 col-xl-3 col-6">
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-6 os-animation" data-os-animation="zoomIn"
+                    data-os-animation-delay="0.5s">
                         <span class="lnr lnr-bug"></span>
                         <p>Время разработки</p>
                         <h5>от 7 дней</h5>
                     </div>
-                    <div class="col-md-3 col-lg-3 col-xl-3 col-6">
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-6 os-animation" data-os-animation="zoomIn"
+                    data-os-animation-delay="0.5s">
                         <span class="lnr lnr-rocket"></span>
                         <p>Скорость установки</p>
                         <h5>< 1 дня</h5>
                     </div>
-                    <div class="col-md-3 col-lg-3 col-xl-3 col-6">
+                    <div class="col-md-3 col-lg-3 col-xl-3 col-6 os-animation" data-os-animation="zoomIn"
+                    data-os-animation-delay="0.5s">
                         <span class="lnr lnr-user"></span>
                         <p>Довольных пользователей</p>
                         <h5>999+</h5>
@@ -506,6 +525,7 @@
     <script src="scripts/jquery.flexslider.js"></script>
     <script src="scripts/jquery.accordion.js"></script>
     <script src="scripts/jquery.mixitup.min.js"></script>
+    <script src="scripts/waypoints.min.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>
